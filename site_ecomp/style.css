@@ -1,0 +1,186 @@
+/* Isso serve para resetar totalmente os estilos, podem retirar se preferirem */
+
+
+* {
+	margin: 0px;
+	padding: 0px !important;
+}
+
+html {
+    font-size: 16px;
+}
+body {
+	overflow-x: hidden;
+  }
+
+/*----------------------------------------*/
+/*estilização da home */
+.home {
+	background-image: url(assets/Efeito\ de\ Fundo.svg),
+		linear-gradient(85.93deg, #00BA8B 0%, #003F6D 100%);
+	background-position: center, right;
+	background-repeat: repeat, no-repeat;
+}
+
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu li {
+	list-style: none;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: 'Inter', sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 48px;
+
+}
+
+.menu li a {
+	padding: 50px;
+	text-decoration: none;
+	color: #FFFFFF;
+	display: block;
+}
+
+.menu li a:hover {
+	color: #66FFD9;
+}
+
+#logo-menu {
+	height: 60%;
+	width: auto;
+	margin-top: 25px;
+	margin-left: 83px;
+}
+
+.inicio {
+	height: 800px;
+	color: #FFFFFF;
+}
+
+.conteudo {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	/* etc */
+	-webkit-transform: translateY(-50%);
+	align-items: center;
+}
+
+.titulo {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-size: 8rem;
+	font-style: normal;
+}
+
+.texto1 {
+	font-family: "Inter", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 1.875rem;
+	line-height: 50px;
+	letter-spacing: 5%;
+}
+
+@media (max-width: 768px) {
+    #time {
+        width: 90%;
+    }
+	.titulo{
+		font-size: 4rem;
+		text-align: center;
+	}
+	.texto1{
+		font-size: 1rem;
+		text-align: center;
+	}
+
+}
+
+/* Espaço usado para alterar o fomulario */
+/*----------------------------------------*/
+.destaque {
+	border: 2px solid red;
+}
+
+/*----------------------------------------*/
+
+/*  estilizacao mvv  */
+
+.MVV {
+	border-top: 60px solid transparent;
+	border-bottom: 60px solid transparent;
+	border-image: linear-gradient(to right, #F6CF6E, #FFA081) 1;
+	padding: 300px;
+	text-align: center;
+}
+
+.bordasCustom p {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: -0.02em;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.bordasCustom h1 {
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 38.4px;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.bordasCustom{
+	background-color: #424242;
+}
+
+/* estilizacao footer */
+
+.foot {
+
+	background-image: url(assets/Efeito\ de\ Fundo.svg),
+		linear-gradient(85.93deg, #00BA8B 0%, #003F6D 100%);
+	background-position: center, right;
+	background-repeat: repeat, no-repeat;
+
+
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+
+}
+
+div.foot p {
+	font-family: "Inter", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 32px;
+	letter-spacing: -0.04em;
+	/*text-align: left;*/
+	color: #FFFFFF;
+}
+
+/*div.foot img{
+	width: 64px;
+	height: 64px;
+	top: 32px;
+	left: 59px;
+	padding: 5.33px 5.33px 8px 5.33px;
+	gap: 0px;
+	border-radius: 6px 0px 0px 0px;
+	opacity: 0px;
+}*/
